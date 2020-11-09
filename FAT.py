@@ -16,7 +16,7 @@ parser.add_argument('--weight_decay', '--wd', default=2e-4, type=float, metavar=
 parser.add_argument('--lr', type=float, default=0.1, metavar='LR', help='learning rate')
 parser.add_argument('--momentum', type=float, default=0.9, metavar='M', help='SGD momentum')
 parser.add_argument('--epsilon', type=float, default=0.031, help='perturbation bound')
-parser.add_argument('--num_steps', type=int, default=10, help='maximum perturbation step K')
+parser.add_argument('--num_steps', type=int, default=5, help='maximum perturbation step K')
 parser.add_argument('--step_size', type=float, default=0.007, help='step size')
 parser.add_argument('--seed', type=int, default=7, metavar='S', help='random seed')
 parser.add_argument('--net', type=str, default="WRN_madry",
@@ -115,9 +115,9 @@ transform_test = transforms.Compose([
 
 print('==> Load Test Data')
 if args.dataset == "cifar10":
-    trainset = torchvision.datasets.CIFAR10(root='./data', train=True, download=True, transform=transform_train)
+    trainset = torchvision.datasets.CIFAR10(root='/mnt/storage0_8/torch_datasets/cifar-data', train=True, download=True, transform=transform_train)
     train_loader = torch.utils.data.DataLoader(trainset, batch_size=128, shuffle=True, num_workers=2)
-    testset = torchvision.datasets.CIFAR10(root='./data', train=False, download=True, transform=transform_test)
+    testset = torchvision.datasets.CIFAR10(root='/mnt/storage0_8/torch_datasets/cifar-data', train=False, download=True, transform=transform_test)
     test_loader = torch.utils.data.DataLoader(testset, batch_size=128, shuffle=False, num_workers=2)
 if args.dataset == "svhn":
     trainset = torchvision.datasets.SVHN(root='./data', split='train', download=True, transform=transform_train)
