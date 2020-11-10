@@ -1,0 +1,58 @@
+==> Load Test Data
+Files already downloaded and verified
+Files already downloaded and verified
+==> Load Model
+WRN_madry32-10-dropout0.0
+==> Friendly Adversarial Training
+Epoch: [1 | 120] | Train Time: 328.00 s | BP Average: 0.38 | Natural Test Acc 0.39 | FGSM Test Acc 0.14 | PGD20 Test Acc 0.06 | CW Test Acc 0.06 |
+
+Epoch: [2 | 120] | Train Time: 330.00 s | BP Average: 0.59 | Natural Test Acc 0.61 | FGSM Test Acc 0.17 | PGD20 Test Acc 0.03 | CW Test Acc 0.04 |
+
+Epoch: [3 | 120] | Train Time: 337.00 s | BP Average: 0.70 | Natural Test Acc 0.66 | FGSM Test Acc 0.22 | PGD20 Test Acc 0.08 | CW Test Acc 0.08 |
+
+Epoch: [4 | 120] | Train Time: 340.00 s | BP Average: 0.78 | Natural Test Acc 0.72 | FGSM Test Acc 0.25 | PGD20 Test Acc 0.08 | CW Test Acc 0.09 |
+
+Epoch: [5 | 120] | Train Time: 348.00 s | BP Average: 0.84 | Natural Test Acc 0.75 | FGSM Test Acc 0.26 | PGD20 Test Acc 0.09 | CW Test Acc 0.09 |
+
+Epoch: [6 | 120] | Train Time: 348.00 s | BP Average: 0.87 | Natural Test Acc 0.77 | FGSM Test Acc 0.30 | PGD20 Test Acc 0.09 | CW Test Acc 0.11 |
+
+Epoch: [7 | 120] | Train Time: 358.00 s | BP Average: 0.92 | Natural Test Acc 0.80 | FGSM Test Acc 0.28 | PGD20 Test Acc 0.07 | CW Test Acc 0.09 |
+
+Epoch: [8 | 120] | Train Time: 360.00 s | BP Average: 0.95 | Natural Test Acc 0.78 | FGSM Test Acc 0.24 | PGD20 Test Acc 0.06 | CW Test Acc 0.07 |
+
+Epoch: [9 | 120] | Train Time: 358.00 s | BP Average: 0.96 | Natural Test Acc 0.80 | FGSM Test Acc 0.30 | PGD20 Test Acc 0.10 | CW Test Acc 0.11 |
+
+Epoch: [10 | 120] | Train Time: 362.00 s | BP Average: 0.99 | Natural Test Acc 0.82 | FGSM Test Acc 0.31 | PGD20 Test Acc 0.09 | CW Test Acc 0.10 |
+
+Epoch: [11 | 120] | Train Time: 361.00 s | BP Average: 0.99 | Natural Test Acc 0.79 | FGSM Test Acc 0.30 | PGD20 Test Acc 0.10 | CW Test Acc 0.12 |
+
+Epoch: [12 | 120] | Train Time: 363.00 s | BP Average: 1.01 | Natural Test Acc 0.85 | FGSM Test Acc 0.36 | PGD20 Test Acc 0.11 | CW Test Acc 0.13 |
+
+Epoch: [13 | 120] | Train Time: 365.00 s | BP Average: 1.02 | Natural Test Acc 0.80 | FGSM Test Acc 0.30 | PGD20 Test Acc 0.09 | CW Test Acc 0.10 |
+
+Epoch: [14 | 120] | Train Time: 367.00 s | BP Average: 1.04 | Natural Test Acc 0.85 | FGSM Test Acc 0.36 | PGD20 Test Acc 0.14 | CW Test Acc 0.15 |
+
+Epoch: [15 | 120] | Train Time: 376.00 s | BP Average: 1.04 | Natural Test Acc 0.84 | FGSM Test Acc 0.34 | PGD20 Test Acc 0.10 | CW Test Acc 0.12 |
+
+Epoch: [16 | 120] | Train Time: 381.00 s | BP Average: 1.06 | Natural Test Acc 0.88 | FGSM Test Acc 0.39 | PGD20 Test Acc 0.12 | CW Test Acc 0.13 |
+
+Epoch: [17 | 120] | Train Time: 371.00 s | BP Average: 1.08 | Natural Test Acc 0.87 | FGSM Test Acc 0.37 | PGD20 Test Acc 0.10 | CW Test Acc 0.12 |
+
+Epoch: [18 | 120] | Train Time: 371.00 s | BP Average: 1.08 | Natural Test Acc 0.87 | FGSM Test Acc 0.33 | PGD20 Test Acc 0.08 | CW Test Acc 0.09 |
+
+Epoch: [19 | 120] | Train Time: 371.00 s | BP Average: 1.08 | Natural Test Acc 0.87 | FGSM Test Acc 0.39 | PGD20 Test Acc 0.11 | CW Test Acc 0.12 |
+
+Epoch: [20 | 120] | Train Time: 371.00 s | BP Average: 1.09 | Natural Test Acc 0.87 | FGSM Test Acc 0.39 | PGD20 Test Acc 0.14 | CW Test Acc 0.16 |
+
+Epoch: [21 | 120] | Train Time: 371.00 s | BP Average: 1.10 | Natural Test Acc 0.85 | FGSM Test Acc 0.37 | PGD20 Test Acc 0.12 | CW Test Acc 0.13 |
+
+Epoch: [22 | 120] | Train Time: 369.00 s | BP Average: 1.10 | Natural Test Acc 0.88 | FGSM Test Acc 0.38 | PGD20 Test Acc 0.12 | CW Test Acc 0.13 |
+
+Epoch: [23 | 120] | Train Time: 370.00 s | BP Average: 1.11 | Natural Test Acc 0.82 | FGSM Test Acc 0.30 | PGD20 Test Acc 0.09 | CW Test Acc 0.10 |
+
+Epoch: [24 | 120] | Train Time: 372.00 s | BP Average: 1.12 | Natural Test Acc 0.88 | FGSM Test Acc 0.39 | PGD20 Test Acc 0.12 | CW Test Acc 0.13 |
+
+Epoch: [25 | 120] | Train Time: 371.00 s | BP Average: 1.12 | Natural Test Acc 0.88 | FGSM Test Acc 0.39 | PGD20 Test Acc 0.14 | CW Test Acc 0.15 |
+
+Epoch: [26 | 120] | Train Time: 373.00 s | BP Average: 1.14 | Natural Test Acc 0.88 | FGSM Test Acc 0.35 | PGD20 Test Acc 0.11 | CW Test Acc 0.12 |
+
